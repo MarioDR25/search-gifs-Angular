@@ -1,0 +1,9 @@
+<div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+    @for (item of gifs(); track item) {
+        <gifs-list-item [gif]="item.url"/>
+    }
+    
+</div>
+
+
